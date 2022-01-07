@@ -2,6 +2,7 @@ const regForm = document.querySelector('#regForm');
 const email = document.querySelector('#email');
 
 
+
 const validateText = (id) => {
   let input = document.querySelector(id);
 
@@ -45,7 +46,7 @@ regForm.addEventListener('submit', e => {
 
      for (let i = 0 ; i < e.currentTarget.length ; i++) {
          if (e.currentTarget[i].type ==="text") {
-             validateText('#'+ e.currentTarget[i].id); }
+             validateText('#'+ (e.currentTarget[i].id)); }
          
              
 
