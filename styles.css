@@ -6,3 +6,26 @@
     
     color: aliceblue;
 }
+
+
+
+.fname {
+    margin-left: 2rem;
+    margin-right: .5rem;
+}
+.mail{
+    font-size: small;
+    margin-bottom: 3rem;
+}
+
+
+.invalid-feedback {
+    color: red;
+    font-weight: 600;
+}
+
+
+
+#input-group {
+    margin-bottom: 1rem;
+}
